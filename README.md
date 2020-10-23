@@ -9,4 +9,6 @@ anti service message bot in pyrogram
  
  pip3 install -r requirements.txt
  
+ edit the apt hash and api id and bot token in bot.py
+ 
 python3 bot.py
