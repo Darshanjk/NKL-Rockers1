@@ -1,6 +1,7 @@
 # antiservicemessage
 anti service message bot in pyrogram 
-work in groups and channels
+
+# work in groups and channels
 
 # how to run
  
