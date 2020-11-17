@@ -4,9 +4,9 @@ from pyrogram.types import Message
 
 
 
-app_id = your api hash
-app_key = 'your api id'
-token = "api token"
+app_id = your api id
+app_key = 'your api hash'
+token = "bot token"
 
 
 
