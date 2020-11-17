@@ -9,7 +9,7 @@ anti service message bot in pyrogram
  
  cd antiservicemessage
  
- pip3 install -r requirements.txt
+ pip3 install -U -r requirements.txt
  
  edit the api hash and api id and bot token in bot.py
  
