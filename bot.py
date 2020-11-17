@@ -1,4 +1,8 @@
+import asyncio
 from pyrogram import Client,filters
+from pyrogram.types import Message
+
+
 
 app_id = your api hash
 app_key = 'your api id'
@@ -15,24 +19,24 @@ text
 
 
 
+@app.on_message(filters.service)
+async def service(client, Message):
+    await Message.delete()
+
+
+
 @app.on_message(filters.private)
-def start(c,m):
-    m.reply(DONATESTARTTEXT,
+async def start(client, Message):
+   await Message.reply(DONATESTARTTEXT,
 )
 
 @app.on_message(filters.group & filters.command("command@botname"))
-def main(c,m):
-    m.reply("""text""")
+async def main(client, Message):
+  await  Message.reply("""text""")
 
 @app.on_message(filters.group & filters.command("command"))
-def main(c,m):
-    m.reply("""text""")
-
-
-
-@app.on_message(filters.service)
-def service(c,m):
-    m.delete()
+async def main(client, Message):
+   await Message.reply("""text""")
 
 
 app.run()
