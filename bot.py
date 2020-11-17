@@ -4,13 +4,13 @@ from pyrogram.types import Message
 
 
 
-app_id = your api id
-app_key = 'your api hash'
+api_id = your api id
+api_hash = 'your api hash'
 token = "bot token"
 
 
 
-app = Client("antiservicemessage", app_id, app_key, bot_token=token)
+app = Client("antiservicemessage", api_id, api_hash, bot_token=token)
 
 DONATESTARTTEXT = """
 text  
