@@ -4,7 +4,8 @@ anti service message bot in pyrogram
 # work in groups and channels
 
 # how to run
-(https://heroku.com/deploy/Darshanjk/delete-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Darshanjk/delete-bot)
+
  
  git clone https://github.com/iiiiii1wepfj/antiservicemessage.git
  
