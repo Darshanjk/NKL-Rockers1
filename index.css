@@ -1,6 +1,6 @@
 body { font-family: Comic Sans MS; width: 80%;background-color: black ;}
 
-h1 { font: Comic Sans MS; color: rgb(23, 109, 109); }
+h1 {font-size:200%;font: Comic Sans MS; margin-left:30%;}
 
 img { height: 50%;margin-bottom: -150px; margin-top: -240px; margin-left: % ;width:-100%}
 
@@ -18,5 +18,5 @@ a:focus { color: black; background-color: red; }
 a:hover { color: white; background-color: red; }
 a:active { color: blue; background-color: red; }
 
-        h1 {font-size:200%;font: Comic Sans MS; margin-left:30%;}
+        
 
