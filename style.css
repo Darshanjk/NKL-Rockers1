@@ -25,3 +25,6 @@ a {color: #21b7dde8;text-decoration: none;
 h3 {color:#21b7dde8 ;
 font-size: 18px;
 }
+@media screen and (min-width: 576px){
+body{ }
+}
