@@ -1,0 +1,27 @@
+head { color:#3b39f7b4 ;background-color:#67f6b8b3 ;}
+img { height: 100% ; width: 100%; }
+h { padding-top: 30px;
+ text-align:center; font-size:15px;}
+h1 {color:#f7454e;font-size:55px; 
+  text-align: center;
+}
+background { size: 200px; }
+html { background:black; }
+h3 {color:#21b7dde8 ;}
+p {color: #21b7dde8;
+padding: center;font-size:25px;
+
+text-align: center; 
+
+}
+sub {font-size: 15px;padding: center;
+color:#21b7dde8 ;
+  
+}
+a {color: #21b7dde8;text-decoration: none;
+  
+}
+}
+h3 {color:#21b7dde8 ;
+font-size: 18px;
+}
